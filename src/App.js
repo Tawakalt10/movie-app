@@ -40,7 +40,7 @@ useEffect(() => {
   <div className="search">
     <input
      placeholder='Search for movies'
-     value="searchTerm"
+     value= {searchTerm}
      onChange={(e) => setSearchTerm(e.target.value)}
     />
 
